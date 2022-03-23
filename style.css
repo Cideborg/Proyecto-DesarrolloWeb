@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: bor;
+/*     -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; */
+}
+
+html{
+    font-size:62,5% ;
+}
+
+body{
+    background-image: url(img/fondo.jpg); 
+    -webkit-backgroud-size:cover;
+    background-size:cover;
+    background-attachment: fixed;
+    background-attachment: scroll;
+}
+
+
+/* ------------------Inicio Header------------------ */
+
+.header{
+background: azure;
+height: 80px;
+width: 100%;
+
+}   
+
+.header__img{
+    position: absolute;
+    padding: 20px 50px;
+}
+
+.logo__header{
+    height: 50px;
+
+}
+
+
+.header__contenedor{
+    margin: auto;
+    max-width: 3000px;
+    height: 100%;
+}
+
+.header__nav {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-items: center;
+    padding: 20px;
+    
+}
+
+.header__ul li{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    padding: 0 10px;
+
+}.header__ul li a{
+    text-align:end;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header__navSub{
+    display: none; 
+    position: absolute;
+}
+
+.header__navSub li{
+    display: block;
+    background-color: darksalmon;
+}
+
+.header__nav li:hover ul{
+    display: block;
+}
+
+/* ----------Fin Header---------- */
+
+/* ----------Footer---------------*/
+
+.footer{
+    height: 2rem;
+    box-shadow: 0px 2px 5px black;
+    position: relative;
+    padding: 1rem;
+    background-color: azure;
+}
+
+
+
+.footer__contenedor{
+    max-width: 150rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.contenedor__redes{
+    display: flex;
+}
+
+.redes__img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+
+.redes__img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* ------Fin Footer-------------- */
+
+/* ----------Inicio Main---------- */
+
+.main{
+    height: 48rem;
+    display:block;
+    margin: 3px 5px 3px 5px;
+    padding: 15px 200px 15px 20px;
+    background-color: darkseagreen;
+    border: 2px solid black;
+    position:relative;
+    top: 5px;
+    left: 5px;
+}
+
+.main__titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:cadetblue;
+}
+
+.main__parrafo{
+    width: 500px;
+    height: 200px;
+    overflow: auto;
+    font-family: 'Lobster', cursive;
+    text-align:justify;
+    z-index: 1;
+}
+
+.main__img{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 400px;
+    height: 250px;
+    width: 450px;
+}   
+
+
+.info{
+    width: 100%;
+    height: 100%;
+}
+
+.info__extra{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin: 10px 15px;
+    position: sticky;
+    left: 5px;
+    background-color:sienna;
+}
+
+
+.info__titulo{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.info__parrafo{
+    font-size: 20px;
+    font-family: 'Lobster', cursive ;
+}
+
+.main__info{
+    height: 48rem;
+    padding: 1rem;
+    border-width:10px;
+}
+
+.main__section{
+    border-style:groove ;
+    border-color:#000000 ;
+    height: 46.25rem;
+    display: inline-block;
+    background-color:floralwhite;
+}
+
+.section__div{
+    margin: 4rem 0 2.5rem 1rem;
+    width: 70rem;
+}
+
+.section__div h2{
+    font-size: 18px;
+    padding-left: 1.2rem;
+}
+
+
+.section__productos{
+    height: 45rem;
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 10px 5px;
+    top: 50px;
+    left: 10px;
+    background-color: cornsilk;
+
+}
+
+.div__productos{
+    display:inline-block;
+
+    
+}
+
+.img__productos{
+    width: 350px;
+    height: 350px;
+    margin: 15px 10px;
+    padding: 10px 15px;
+
+}
+
+.productos__titulo{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-display: center;
+}
+
+.productos__parrafo{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.main__cliente{
+    height: 48rem;
+    margin: 1rem;
+    
+}
+
+.cliente{
+    display: flex;
+    margin-top: 30px;
+    border-style: groove;
+    height: 8rem;
+    background-color: cornsilk;
+
+}
+
+.cliente__titulo{
+    margin: 10px 10px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.img__clientes{
+    height: 100px;
+    width: 90px;
+    overflow: hidden;
+    
+}
+
+.cliente__parrafo{
+    margin:10px 10px ;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor__form .form .form__header .form__title{
+    font-weight: normal;
+    font-family: sans-serif;
+    color:#ff851b;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.contenedor__form .form .form__header .form__title span{
+    color:black;
+}
+
+.contenedor__form .form{
+    background-color:beige;
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    padding:5px 35px;
+    margin-top:30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.contenedor__form .form .form__label{
+    display: block;
+    color:black;
+    font-size: 20px;
+    font-family:Roboto;
+    position: relative;
+}
+
+.contenedor__form .form .form__input, .form__textarea{
+    background-color:burlywood;
+    border: none;
+    outline: none;
+    border-bottom:3px solid #ff851b;
+    width: 100%;
+    padding: 18px;
+    margin-bottom:20px;
+    border-radius: 2px;
+    font-size: 15px;
+    color: #fff;
+    font-family: Roboto;
+}
+
+.contenedor__form .form .btn__submit{
+    width: 100%;
+    font-family: Roboto;
+    outline: none;
+    background:#ff851b;
+    font-size: 16px;
+    border: 1px solid black;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 5px;
+
+}
+
+.contenedor__form .form .btn__reset{
+    width: 100%;
+    font-family: Roboto;
+    outline: none;
+    background:#ff851b;
+    font-size: 16px;
+    border: 1px groove black;
+    color: #fff;
+    margin: 5px 0;
+    padding: 15px 5px;
+    
+    transition: all .5s ease;
+}
+
+.contenedor__form .form.btn__submit:hover{
+    background: #f29716;
+
+}
+/* --------Fin Main------- */
+
+.sidebar{
+    display:block;
+    position:absolute;
+    margin: 5px 8px;
+    left: 900px;
+    bottom: 25px;
+    z-index: 1;
+}
+
+.sidebar__p{
+    margin: 5px 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    color:gold;
+}
+
